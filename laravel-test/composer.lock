@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "44227ecf8e8c53e05102eb55398cde6e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5169,6 +5169,72 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.4"
             },
             "time": "2021-12-08T09:12:39+00:00"
+        },
+        {
+            "name": "tuan/mypackage",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tuanht99/mypackage.git",
+                "reference": "c6fb09bfc6f952f3c28bd246d186742a4f223e68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tuanht99/mypackage/zipball/c6fb09bfc6f952f3c28bd246d186742a4f223e68",
+                "reference": "c6fb09bfc6f952f3c28bd246d186742a4f223e68",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tuan\\Mypackage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Hang Thanh Tuan",
+                    "email": "tuanht.02.student@fit.tdc.edu.vn"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/tuanht99/mypackage/issues",
+                "source": "https://github.com/tuanht99/mypackage/tree/v1.0.1"
+            },
+            "time": "2022-05-07T02:54:48+00:00"
+        },
+        {
+            "name": "tuanht99/mypackage",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tuanht99/mypackage.git",
+                "reference": "0ead5c5ccfd4ca1a656f164a81fe4f6bcb732e63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tuanht99/mypackage/zipball/0ead5c5ccfd4ca1a656f164a81fe4f6bcb732e63",
+                "reference": "0ead5c5ccfd4ca1a656f164a81fe4f6bcb732e63",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tuan\\Mypackage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Hang Thanh Tuan",
+                    "email": "tuanht.02.student@fit.tdc.edu.vn"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/tuanht99/mypackage/issues",
+                "source": "https://github.com/tuanht99/mypackage/tree/v1.0.0"
+            },
+            "time": "2022-05-07T00:25:53+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
